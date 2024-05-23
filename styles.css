@@ -1,0 +1,61 @@
+header {
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 0.7rem 0.7rem rgb(12, 189, 65);
+    margin: 10px;
+    font-size: 30px
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 0.7rem 0.7rem rgb(12, 189, 65);
+    margin: 10px;
+    font-size: 30px;
+}
+
+.flex-container{
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    background-color: rgb(57, 157, 57);
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+    border-radius: 1rem;
+    box-shadow: 0 0.7rem 0.7rem rgb(41, 6, 239);
+    width: 70%;
+    height: 600px;
+}
+
+.flex-container > div {
+    background-color: rgb(24, 126, 68);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: calc(25% - 2rem);
+    box-shadow: 0 0.5rem 0.5rem rgb(41, 6, 239);
+}
+
+aside {
+    display: flex;
+    background-color: rgba(245, 41, 27, 0.986);
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+    border-radius: 1rem;
+    box-shadow: 0 0.7rem 0.7rem rgb(237, 143, 36);
+    width: 20%;
+    height: 600px;
+}
